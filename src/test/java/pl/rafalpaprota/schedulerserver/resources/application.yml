@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/schedulertest
+    username: postgres
+    password: polska525
+    initialization-mode: always
+server:
+  port: 8080
